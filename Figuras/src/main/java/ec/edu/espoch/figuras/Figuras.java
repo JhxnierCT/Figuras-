@@ -17,19 +17,19 @@ public class Figuras {
         Scanner scanner = new Scanner(System.in);
 
         // Cálculo para el círculo
-        System.out.print("Ingrese el radio del círculo: ");
+        System.out.print("Ingrese el radio del Círculo: ");
         double radio = scanner.nextDouble();
         Circulos circulo = new Circulos(radio);
         
         System.out.println("Área del círculo: " + circulo.calcularArea());
-        System.out.println("Perímetro del círculo: " + circulo.calcularPerimetro());
+        System.out.println("Perímetro del Círculo: " + circulo.calcularPerimetro());
 
         // Cálculo para el cuadrado
-        System.out.print("Ingrese el lado del cuadrado: ");
+        System.out.print("Ingrese el lado del Cuadrado: ");
         double lado = scanner.nextDouble();
         Cuadrados cuadrado = new Cuadrados(lado);
         
-        System.out.println("Área del cuadrado: " + cuadrado.calcularArea());
-        System.out.println("Perímetro del cuadrado: " + cuadrado.calcularPerimetro());
+        System.out.println("Área del Cuadrado: " + cuadrado.calcularArea());
+        System.out.println("Perímetro del Cuadrado: " + cuadrado.calcularPerimetro());
     }
 }
