@@ -20,9 +20,9 @@ public class Figuras {
                 //Presentacion del Triangulo
         Triangulo objTriangulo = new Triangulo();
         
-            objTriangulo.alturatriangulo=5;
-            objTriangulo.basetriangulo=10;
-            objTriangulo.tipotriangulo=TipoTriangulo.EQUILATERO;
+            objTriangulo.alturaTriangulo=5;
+            objTriangulo.baseTriangulo=10;
+            objTriangulo.tipoTriangulo=TipoTriangulo.EQUILATERO;
 
         objTriangulo.imprimir();
 
@@ -45,8 +45,8 @@ public class Figuras {
                 //Presentacion del Rectangulo
         Rectangulo objRectangulo = new Rectangulo();
         
-            objRectangulo.alturarectangulo=5;
-            objRectangulo.baserectangulo=10;
+            objRectangulo.alturaRectangulo=5;
+            objRectangulo.baseRectangulo=10;
         
         objRectangulo.imprimir();
         

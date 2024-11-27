@@ -11,34 +11,36 @@ package ec.edu.espoch.figuras.Rectangulo;
  */
 public class Rectangulo {
 
-    public float baserectangulo;
-    public float alturarectangulo;
-    public float perimetrorectangulo;
-    public float arearectangulo;
+    public float baseRectangulo;
+    public float alturaRectangulo;
+    public float perimetroRectangulo;
+    public float areaRectangulo;
 
     public Rectangulo() {
     }
 
-    public Rectangulo(float baserectangulo, float alturarectangulo) {
-        this.baserectangulo = baserectangulo;
-        this.alturarectangulo = alturarectangulo;
+    public Rectangulo(float baseRectangulo, float alturaRectangulo) {
+        this.baseRectangulo = baseRectangulo;
+        this.alturaRectangulo = alturaRectangulo;
     }
+
+    
 
     public float AreaRectangulo() {
         float AreaRectangulo = 0;
-        AreaRectangulo = (baserectangulo * alturarectangulo) / 2;
+        AreaRectangulo = (baseRectangulo * alturaRectangulo) / 2;
         return AreaRectangulo;
     }
 
     public float PerimetroRectangulo() {
         float PerimetroRectangulo = 0;
-        PerimetroRectangulo = (baserectangulo * alturarectangulo) / 2;
+        PerimetroRectangulo = (baseRectangulo * alturaRectangulo) / 2;
         return PerimetroRectangulo;
     }
     
     public void imprimir() {
 
-        System.out.println("La altura del rectangulo es de: " + alturarectangulo + "cm");
-        System.out.println("La base del rectangulo es de: " + baserectangulo + "cm"); 
+        System.out.println("La altura del rectangulo es de: " + alturaRectangulo + "cm");
+        System.out.println("La base del rectangulo es de: " + baseRectangulo + "cm"); 
     }
 }

@@ -11,45 +11,45 @@ package ec.edu.espoch.figuras.Triangulo;
  */
 public class Triangulo {
 
-    public float basetriangulo;
-    public float alturatriangulo;
+    public float baseTriangulo;
+    public float alturaTriangulo;
 
-    public TipoTriangulo tipotriangulo;
+    public TipoTriangulo tipoTriangulo;
 
     public Triangulo() {
     }
 
     public Triangulo(float basetriangulo, float alturatriangulo, TipoTriangulo tipotriangulo) {
-        this.basetriangulo = basetriangulo;
-        this.alturatriangulo = alturatriangulo;
-        this.tipotriangulo = tipotriangulo;
+        this.baseTriangulo = basetriangulo;
+        this.alturaTriangulo = alturatriangulo;
+        this.tipoTriangulo = tipotriangulo;
     }
 
     public void imprimir() {
-        System.out.println("La base del triangulo es: " + basetriangulo + "cm");
-        System.out.println("La altura del triangulo es: " + alturatriangulo + "cm");
-        System.out.println("Es un Triangulo: " + tipotriangulo);
+        System.out.println("La base del triangulo es: " + baseTriangulo + "cm");
+        System.out.println("La altura del triangulo es: " + alturaTriangulo + "cm");
+        System.out.println("Es un Triangulo: " + tipoTriangulo);
     }
 
     public float AreaTriangulo() {
         float AreaTriangulo = 0;
-        AreaTriangulo = (basetriangulo * alturatriangulo) / 2;
+        AreaTriangulo = (baseTriangulo * alturaTriangulo) / 2;
         return AreaTriangulo;
     }
 
     public float CalcularHipotenusa() {
         float hipotenusa = 0;
 
-        if (null != tipotriangulo) switch (tipotriangulo) {
+        if (null != tipoTriangulo) switch (tipoTriangulo) {
 
                 case EQUILATERO:
                     hipotenusa = 0;
                     break;
                 case ISOSCELES:
-                    hipotenusa = (float) (Math.sqrt((alturatriangulo*alturatriangulo)+(basetriangulo/2)*(basetriangulo/2)));
+                    hipotenusa = (float) (Math.sqrt((alturaTriangulo*alturaTriangulo)+(baseTriangulo/2)*(baseTriangulo/2)));
                     break;
                 case ESCALENO:
-                    hipotenusa = (float) (Math.sqrt((alturatriangulo*alturatriangulo)+(basetriangulo*basetriangulo)));
+                    hipotenusa = (float) (Math.sqrt((alturaTriangulo*alturaTriangulo)+(baseTriangulo*baseTriangulo)));
                     break;
                 default:
             }
@@ -58,7 +58,7 @@ public class Triangulo {
     }
     
     public float PerimetroTriangulo(){
-        return(alturatriangulo+basetriangulo+CalcularHipotenusa());
+        return(alturaTriangulo+baseTriangulo+CalcularHipotenusa());
     }
 
 }
