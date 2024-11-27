@@ -38,7 +38,7 @@ public class Triangulo {
     }
 
     public float CalcularHipotenusa() {
-        double hipotenusa = 0;
+        float hipotenusa = 0;
 
         if (null != tipotriangulo) switch (tipotriangulo) {
 
@@ -46,10 +46,10 @@ public class Triangulo {
                     hipotenusa = 0;
                     break;
                 case ISOSCELES:
-                    hipotenusa = (Math.sqrt((alturatriangulo*alturatriangulo)+(basetriangulo*basetriangulo)));
+                    hipotenusa = (float) (Math.sqrt((alturatriangulo*alturatriangulo)+(basetriangulo/2)*(basetriangulo/2)));
                     break;
                 case ESCALENO:
-                    hipotenusa = (Math.sqrt((alturatriangulo*alturatriangulo)+(basetriangulo*basetriangulo)));
+                    hipotenusa = (float) (Math.sqrt((alturatriangulo*alturatriangulo)+(basetriangulo*basetriangulo)));
                     break;
                 default:
             }

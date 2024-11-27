@@ -55,17 +55,7 @@ public class Figuras {
             float arearectangulo=objRectangulo.AreaRectangulo();
             System.out.println("El area del rectangulo: " + arearectangulo);
             System.out.println("    ");
-            System.out.println("    ");
-            
-            
-                //Presentacion del Cuadrado
-                
-                
-                
-                //Presentacion del Circulo
-                
-                
-                
+            System.out.println("    ");        
                 
     }
 }
