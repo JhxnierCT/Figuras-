@@ -17,6 +17,7 @@ public class Figuras {
 
     public static void main(String[] args) {
         
+                //Jostin Torres
                 //Presentacion del Triangulo
         Triangulo objTriangulo = new Triangulo();
         
@@ -29,7 +30,7 @@ public class Figuras {
             float hipotenusa=objTriangulo.CalcularHipotenusa();
             if(hipotenusa==0){
                 System.out.println("!!!Error al calcular la hipotenusa en el triangulo EQUILATEROO ya que todos sus lados son semejantes.!!!");
-                System.out.println("!!!En estos momentos va adquirir un virus mortal en tu dispositivo!!!");
+                System.out.println("!!!En estos momentos va adquirir un virus mortal en su dispositivo!!!");
                 System.out.println("    ");
             }else{
                 System.out.println("La hiptenusa del triangulo es: " + hipotenusa);
@@ -41,7 +42,8 @@ public class Figuras {
             System.out.println("El area del triangulo es: " + areatriangulo);
             System.out.println("    ");
             System.out.println("    ");
-            
+                
+                //Jostin Torres
                 //Presentacion del Rectangulo
         Rectangulo objRectangulo = new Rectangulo();
         
