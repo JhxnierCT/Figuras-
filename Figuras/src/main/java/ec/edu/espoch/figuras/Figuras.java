@@ -19,6 +19,7 @@ import java.util.Scanner;
 public class Figuras {
 
     public static void main(String[] args) {
+
                 //Jostin Torres
                 //Presentacion del Triangulo
         Triangulo objTriangulo = new Triangulo();
@@ -44,7 +45,8 @@ public class Figuras {
             System.out.println("El area del triangulo es: " + areatriangulo);
             System.out.println("    ");
             System.out.println("    ");
-            
+                
+                //Jostin Torres
                 //Presentacion del Rectangulo
         Rectangulo objRectangulo = new Rectangulo();
         
@@ -70,7 +72,7 @@ public class Figuras {
         
         System.out.println("Area del circulo: " + circulo.calcularArea());
         System.out.println("Perimetro del Circulo: " + circulo.calcularPerimetro());
-
+        //Jhonier Cotaya
         // Cálculo para el cuadrado
         System.out.print("Ingrese el lado del Cuadrado: ");
         double lado = scanner.nextDouble();
