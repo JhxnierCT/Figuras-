@@ -13,8 +13,6 @@ public class Rectangulo {
 
     public float baseRectangulo;
     public float alturaRectangulo;
-    public float perimetroRectangulo;
-    public float areaRectangulo;
 
     public Rectangulo() {
     }
@@ -23,8 +21,6 @@ public class Rectangulo {
         this.baseRectangulo = baseRectangulo;
         this.alturaRectangulo = alturaRectangulo;
     }
-
-    
 
     public float AreaRectangulo() {
         float AreaRectangulo = 0;
