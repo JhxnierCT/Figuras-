@@ -19,7 +19,7 @@ import java.util.Scanner;
 public class Figuras {
 
     public static void main(String[] args) {
-        
+                //Jostin Torres
                 //Presentacion del Triangulo
         Triangulo objTriangulo = new Triangulo();
         
@@ -32,7 +32,7 @@ public class Figuras {
             float hipotenusa=objTriangulo.CalcularHipotenusa();
             if(hipotenusa==0){
                 System.out.println("!!!Error al calcular la hipotenusa en el triangulo EQUILATEROO ya que todos sus lados son semejantes.!!!");
-                System.out.println("!!!En estos momentos va adquirir un virus mortal en tu dispositivo!!!");
+                System.out.println("!!!En estos momentos va adquirir un virus mortal en su dispositivo!!!");
                 System.out.println("    ");
             }else{
                 System.out.println("La hiptenusa del triangulo es: " + hipotenusa);
@@ -62,20 +62,21 @@ public class Figuras {
                 
         Scanner scanner = new Scanner(System.in);
 
+        //Jhonier Cotaya
         // Cálculo para el círculo
-        System.out.print("Ingrese el radio del Círculo: ");
+        System.out.print("Ingrese el radio del Circulo: ");
         double radio = scanner.nextDouble();
         Circulos circulo = new Circulos(radio);
         
-        System.out.println("Área del círculo: " + circulo.calcularArea());
-        System.out.println("Perímetro del Círculo: " + circulo.calcularPerimetro());
+        System.out.println("Area del circulo: " + circulo.calcularArea());
+        System.out.println("Perimetro del Circulo: " + circulo.calcularPerimetro());
 
         // Cálculo para el cuadrado
         System.out.print("Ingrese el lado del Cuadrado: ");
         double lado = scanner.nextDouble();
         Cuadrados cuadrado = new Cuadrados(lado);
         
-        System.out.println("Área del Cuadrado: " + cuadrado.calcularArea());
-        System.out.println("Perímetro del Cuadrado: " + cuadrado.calcularPerimetro());
+        System.out.println("Area del Cuadrado: " + cuadrado.calcularArea());
+        System.out.println("Perimetro del Cuadrado: " + cuadrado.calcularPerimetro());
     }
 }
